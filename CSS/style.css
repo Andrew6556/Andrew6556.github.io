@@ -224,7 +224,7 @@ footer {
     padding: 2.5rem;
     box-shadow: 5px 4px 10px rgba(22, 21, 21, 0.658);
     border-radius: 2rem;
-    height: 24rem;
+    min-height: 24rem;
   }
   .portfolio-content-block {
     border: 2px solid rgba(29, 23, 23, 0.623);
@@ -298,7 +298,7 @@ footer {
   }
   .price-header {
     margin: 0;
-    padding: 0 ;
+    padding: 5rem 0 ;
     text-align: center;
   }
   .price-header h2 {
@@ -313,5 +313,8 @@ footer {
   }
   .main .human-img-content-text h1 {
     margin-bottom: 3rem;
+  }
+  .contacts-menu a {
+    display: block;
   }
 }
